@@ -192,19 +192,19 @@ footer {
   height: 80px;
 }
 
-.instagram {
+#instagram {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.facebook {
+#facebook {
   top: 50%;
   left: 20%;
   transform: translate(-50%, -50%);
 }
 
-.github {
+#github {
   top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
