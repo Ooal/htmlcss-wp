@@ -8,13 +8,11 @@
 body {
   background-image: url('https://images6.alphacoders.com/366/thumb-1920-366341.jpg');
   background-size: cover;
-
 }
 
 #page {
   width: 75%;
   margin: 20px auto;
-
 }
 
 /* header */
@@ -22,7 +20,7 @@ body {
 header {
   position: relative;
   text-align: center;
-  height: 260px;
+  height: 400px;
   width: 100%;
   background-image: url('https://images.wallpaperscraft.com/image/forest_trees_fog_110485_1920x1080.jpg');
   background-size: cover;
@@ -94,7 +92,7 @@ span {
 /* parte principale */
 
 .sezione1 {
-  margin : 10px 0;
+  margin : 20px 0;
 }
 
 .sezione1::after {
@@ -105,34 +103,54 @@ span {
 
 .sinistra, .destra , .centro{
   float: left;
+  border-radius: 8px;
+}
 
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 35px;
+}
+
+p {
+  padding: 10px 10px;
 }
 
 .sinistra {
   width: 20%;
+  background-color: white;
   /* debug */
-  background-color: #df9deb;
-  height: 400px;
-
+/*  background-color: #df9deb;
+  height: 400px;*/
 }
 
 .centro {
   width: 58%;
   margin: 0 1%;
+  background-color: white;
   /* debug */
-  background-color: #802473;
-  height: 600px;
+/*  background-color: #802473;
+  height: 600px;*/
 }
 
 .destra {
   width: 20%;
+  background-color: trasparance;
 }
 
 .sottosezioni {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
   /* debug */
-  background-color: #df9deb;
-  height: 250px;
+/*  background-color: #df9deb;
+  height: 250px;*/
 }
 
 /* parte principale */
