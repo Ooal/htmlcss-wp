@@ -110,16 +110,22 @@ h2 {
   text-align: center;
   padding: 20px 0;
   font-size: 50px;
+  color: #504741;
 }
 
 h3 {
   text-align: center;
   padding: 20px 0;
   font-size: 35px;
+  color: #504741;
 }
 
 p {
   padding: 10px 10px;
+}
+
+.verde {
+  color: green;
 }
 
 .sinistra {
@@ -160,9 +166,49 @@ p {
 /* footer */
 
 footer {
-  height: 150px;
   width: 100%;
-  background-color: #9ddeeb;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 20px ;
+  /* debug */
+/*  height: 150px;
+  background-color: #9ddeeb;*/
 }
+
+#by {
+  color: grey;
+  text-align: center;
+}
+
+.immagini {
+  position: relative;
+  height: 200px;
+}
+
+.immaginifooter {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.instagram {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.facebook {
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.github {
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
 
 /* footer */
